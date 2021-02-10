@@ -4,7 +4,6 @@
     pageEncoding="UTF-8"%>
 <%@ page errorPage="error.jsp" %>
 <%
-	//깃허브 연동 테스트
 	request.setCharacterEncoding("utf-8");
 	String id = request.getParameter("id");
 	String pass = request.getParameter("pass");
